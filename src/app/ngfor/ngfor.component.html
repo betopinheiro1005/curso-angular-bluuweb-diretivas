@@ -1,0 +1,25 @@
+<h1 class="container bg-dark text-white text-center my-4 py-4">[ngFor]</h1>
+
+<div class="container">
+
+    <table class="table">
+        <thead>
+            <tr>
+               <th scope="col">#</th>
+               <th scope="col">Tipo</th>
+               <th scope="col">Nome</th>
+               <th scope="col">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let animal of animais; index as i">
+                <th scope="row">{{i+1}}</th>
+                <td>{{animal.tipo}}</td>
+                <td>{{animal.nome}}</td>
+                <td>{{animal.idade}}</td>
+           </tr>
+        </tbody>
+    </table>
+
+</div>
+
