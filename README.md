@@ -1,3 +1,7 @@
+# curso-angular-bluuweb-aulas-9a12
+
+Curso de Angular Aulas 9 a 12 (Diretivas) - Bluuweb - Ignácio Gutierrez
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
